@@ -1,0 +1,102 @@
+; assmbler file for use with VAC++ 
+; Assumes _Optlink calling convention which uses EAX, EDX, ECX in that order
+; for passing parameters, space is reserved for the parameters but not used
+.386p
+
+callpeek_TEXT segment para public use32 'CODE'
+                assume cs:callpeek_TEXT
+                assume ds:nothing
+                
+__nw__FUi       proc near
+                mov edx,[esp]
+                sub esp,08h
+                call dbg_new
+                add esp,08h
+                ret
+__nw__FUi       endp
+
+__dl__FPv       proc near
+                mov edx,[esp]
+                sub esp,08h
+                call dbg_delete
+                add esp,08h
+                ret
+__dl__FPv       endp
+
+__vn__FUi       proc near
+                mov edx,[esp]
+                sub esp,08h
+                call dbg_new_array
+                add esp,08h
+                ret
+__vn__FUi       endp
+
+__vd__FPv       proc near
+                mov edx,[esp]
+                sub esp,08h
+                call dbg_delete_array
+                add esp,08h
+                ret
+__vd__FPv       endp
+
+
+malloc          proc near
+                mov edx,[esp]
+                sub esp,08h
+                call dbg_malloc
+                add esp,08h
+                ret
+malloc          endp
+
+free            proc near
+                mov edx,[esp]
+                sub esp,08h
+                call dbg_free
+                add esp,08h
+                ret
+free            endp    
+
+
+realloc         proc near
+                mov ecx,[esp]
+                sub esp,0ch
+                call dbg_realloc
+                add esp,0ch
+                ret
+realloc         endp
+
+calloc          proc near
+                mov ecx,[esp]
+                sub esp,0ch
+                call dbg_calloc
+                add esp,0ch
+                ret
+calloc          endp
+
+heap_panic      proc near
+                int 3
+                ret
+heap_panic      endp
+
+                PUBLIC	__nw__FUi
+                PUBLIC	__vn__FUi
+                PUBLIC	__dl__FPv
+                PUBLIC	__vd__FPv
+                PUBLIC	malloc
+                PUBLIC	free
+                PUBLIC	realloc
+                PUBLIC  calloc
+                PUBLIC  heap_panic
+                
+                extrn dbg_new:near
+                extrn dbg_delete:near
+                extrn dbg_new_array:near
+                extrn dbg_delete_array:near
+                extrn dbg_malloc:near
+                extrn dbg_free:near
+                extrn dbg_realloc:near
+                extrn dbg_calloc:near
+                
+callpeek_TEXT    ends
+
+                end

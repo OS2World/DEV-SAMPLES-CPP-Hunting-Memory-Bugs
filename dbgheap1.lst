@@ -1,0 +1,354 @@
+ 0000:0   FLAT
+ 0000:00000000  Imp  DOS32IQUERYMESSAGECP (MSG.8)
+ 0000:00000000  Imp  DOS32IQUERYMESSAGECP (MSG.8)
+ 0000:00000000  Imp  DOS32TRUEGETMESSAGE  (MSG.6)
+ 0000:00000000  Imp  DOS32TRUEGETMESSAGE  (MSG.6)
+ 0000:00000000  Imp  DosAllocMem          (DOSCALLS.299)
+ 0000:00000000  Imp  DosAllocMem          (DOSCALLS.299)
+ 0000:00000000  Imp  DosCreateMutexSem    (DOSCALLS.331)
+ 0000:00000000  Imp  DosCreateMutexSem    (DOSCALLS.331)
+ 0000:00000000  Imp  DosExit              (DOSCALLS.234)
+ 0000:00000000  Imp  DosExit              (DOSCALLS.234)
+ 0000:00000000  Imp  DosExitList          (DOSCALLS.296)
+ 0000:00000000  Imp  DosExitList          (DOSCALLS.296)
+ 0000:00000000  Imp  DosFreeMem           (DOSCALLS.304)
+ 0000:00000000  Imp  DosFreeMem           (DOSCALLS.304)
+ 0000:00000000  Imp  DosGetInfoBlocks     (DOSCALLS.312)
+ 0000:00000000  Imp  DosGetInfoBlocks     (DOSCALLS.312)
+ 0000:00000000  Imp  DosQueryDBCSEnv      (NLS.6)
+ 0000:00000000  Imp  DosQueryDBCSEnv      (NLS.6)
+ 0000:00000000  Imp  DosQueryHType        (DOSCALLS.224)
+ 0000:00000000  Imp  DosQueryHType        (DOSCALLS.224)
+ 0000:00000000  Imp  DosQuerySysInfo      (DOSCALLS.348)
+ 0000:00000000  Imp  DosQuerySysInfo      (DOSCALLS.348)
+ 0000:00000000  Imp  DosRaiseException    (DOSCALLS.356)
+ 0000:00000000  Imp  DosRaiseException    (DOSCALLS.356)
+ 0000:00000000  Imp  DosSetExceptionHandler (DOSCALLS.354)
+ 0000:00000000  Imp  DosSetExceptionHandler (DOSCALLS.354)
+ 0000:00000000  Imp  DosSetFilePtr        (DOSCALLS.256)
+ 0000:00000000  Imp  DosSetFilePtr        (DOSCALLS.256)
+ 0000:00000000  Imp  DosSetMem            (DOSCALLS.305)
+ 0000:00000000  Imp  DosSetMem            (DOSCALLS.305)
+ 0000:00000000  Imp  DosSetSignalExceptionFocus (DOSCALLS.378)
+ 0000:00000000  Imp  DosSetSignalExceptionFocus (DOSCALLS.378)
+ 0000:00000000  Imp  DosUnsetExceptionHandler (DOSCALLS.355)
+ 0000:00000000  Imp  DosUnsetExceptionHandler (DOSCALLS.355)
+ 0000:00000000  Imp  DosWrite             (DOSCALLS.282)
+ 0000:00000000  Imp  DosWrite             (DOSCALLS.282)
+ 0001:00000000 000004B05H CODE32                 CODE 32-bit
+ 0001:0000014C       __nw__FUi
+ 0001:0000014C       __nw__FUi
+ 0001:00000164       __dl__FPv
+ 0001:00000164       __dl__FPv
+ 0001:00000180       __vn__FUi
+ 0001:00000180       __vn__FUi
+ 0001:00000198       __vd__FPv
+ 0001:00000198       __vd__FPv
+ 0001:000001B4       malloc
+ 0001:000001B4       malloc
+ 0001:000001CC       free
+ 0001:000001CC       free
+ 0001:000001E4       realloc
+ 0001:000001E4       realloc
+ 0001:00000280       main
+ 0001:00000280       main
+ 0001:00000330       exit
+ 0001:00000330       exit
+ 0001:00000400       _floatfmt
+ 0001:00000400       _floatfmt
+ 0001:00000A14       memcpy
+ 0001:00000A14       memcpy
+ 0001:00000A38       memset
+ 0001:00000A38       memset
+ 0001:00000A68       strcpy
+ 0001:00000A68       strcpy
+ 0001:00000A98       _lucvt
+ 0001:00000A98       _lucvt
+ 0001:00000EF0       strlen
+ 0001:00000EF0       strlen
+ 0001:00000F08       _exit_weak
+ 0001:00000F08       _exit_weak
+ 0001:00000F14       _exestart
+ 0001:00000F14       _exestart
+ 0001:00000FA0       __RunExitList
+ 0001:00000FA0       __RunExitList
+ 0001:00000FD0       _critlib_except
+ 0001:00000FD0       _critlib_except
+ 0001:000010DC       _callback_opt_sys
+ 0001:000010DC       _callback_opt_sys
+ 0001:000010E8       _control87
+ 0001:000010E8       _control87
+ 0001:00001114       _fpninit
+ 0001:00001114       _fpninit
+ 0001:00001118       _fpreset
+ 0001:00001118       _fpreset
+ 0001:00001128       _next_digit
+ 0001:00001128       _next_digit
+ 0001:0000118C       __sctordtorInit
+ 0001:0000118C       __sctordtorInit
+ 0001:00001194       __sctordtorTerm
+ 0001:00001194       __sctordtorTerm
+ 0001:0000119C       _setuparg
+ 0001:0000119C       _setuparg
+ 0001:00001394       _terminate
+ 0001:00001394       _terminate
+ 0001:000013A4       _cppinit
+ 0001:000013A4       _cppinit
+ 0001:000013AC       __method_weak
+ 0001:000013AC       __method_weak
+ 0001:000013B0       _iconv_term_weak
+ 0001:000013B0       _iconv_term_weak
+ 0001:000013B4       _localInit_weak
+ 0001:000013B4       _localInit_weak
+ 0001:000013B8       _freeLocale_weak
+ 0001:000013B8       _freeLocale_weak
+ 0001:000013BC       _init_ctype_weak
+ 0001:000013BC       _init_ctype_weak
+ 0001:000013C0       _freeCtype_weak
+ 0001:000013C0       _freeCtype_weak
+ 0001:000013C4       _test_handle
+ 0001:000013C4       _test_handle
+ 0001:00001414       _CRT_init
+ 0001:00001414       _CRT_init
+ 0001:000016BC       _CRT_term
+ 0001:000016BC       _CRT_term
+ 0001:00001774       _matherr
+ 0001:00001774       _matherr
+ 0001:0000177C       _w_Terminate_and_dump
+ 0001:0000177C       _w_Terminate_and_dump
+ 0001:000017FC       _Exception
+ 0001:000017FC       _Exception
+ 0001:00001814       _Test_and_reset
+ 0001:00001814       _Test_and_reset
+ 0001:00001820       _Regen_exception
+ 0001:00001820       _Regen_exception
+ 0001:0000182C       _get_seglim
+ 0001:0000182C       _get_seglim
+ 0001:00001868       _get_eib
+ 0001:00001868       _get_eib
+ 0001:000018C4       _mig_eib_store
+ 0001:000018C4       _mig_eib_store
+ 0001:000018D4       _EXE_Exception
+ 0001:000018D4       _EXE_Exception
+ 0001:00001914       _recreate_exception
+ 0001:00001914       _recreate_exception
+ 0001:00001A50       _Lib_excpt
+ 0001:00001A50       _Lib_excpt
+ 0001:00001B88       __Exception
+ 0001:00001B88       __Exception
+ 0001:00001F80       _exception_dllinit
+ 0001:00001F80       _exception_dllinit
+ 0001:00001FB0       _exception_procinit
+ 0001:00001FB0       _exception_procinit
+ 0001:00001FE4       _ltoa
+ 0001:00001FE4       _ltoa
+ 0001:00002084       _PrintErrMsg
+ 0001:00002084       _PrintErrMsg
+ 0001:000020D0       _MesgServ
+ 0001:000020D0       _MesgServ
+ 0001:000022F0       _uheapmin
+ 0001:000022F0       _uheapmin
+ 0001:00002558       _rmem_term
+ 0001:00002558       _rmem_term
+ 0001:0000257C       _rmem_init
+ 0001:0000257C       _rmem_init
+ 0001:0000264C       strspn
+ 0001:0000264C       strspn
+ 0001:00002688       _tmem_term
+ 0001:00002688       _tmem_term
+ 0001:000026B0       _tmem_init
+ 0001:000026B0       _tmem_init
+ 0001:00002758       _tfree
+ 0001:00002758       _tfree
+ 0001:00002784       _trealloc
+ 0001:00002784       _trealloc
+ 0001:000027D8       _theapmin
+ 0001:000027D8       _theapmin
+ 0001:00002808       _tcalloc
+ 0001:00002808       _tcalloc
+ 0001:0000283C       _tmalloc
+ 0001:0000283C       _tmalloc
+ 0001:00002870       __wctordtorInit
+ 0001:00002870       __wctordtorInit
+ 0001:00002874       __wctordtorTerm
+ 0001:00002874       __wctordtorTerm
+ 0001:00002878       _w_tmem_term
+ 0001:00002878       _w_tmem_term
+ 0001:0000287C       _w_tmem_init
+ 0001:0000287C       _w_tmem_init
+ 0001:00002880       _bit_test_set
+ 0001:00002880       _bit_test_set
+ 0001:00002890       _Math_Exception_Def
+ 0001:00002890       _Math_Exception_Def
+ 0001:00002898       _fcloseall_weak
+ 0001:00002898       _fcloseall_weak
+ 0001:000028A0       fflush
+ 0001:000028A0       fflush
+ 0001:00002914       _FreeFCB
+ 0001:00002914       _FreeFCB
+ 0001:000029AC       getenv
+ 0001:000029AC       getenv
+ 0001:00002A90       _inc
+ 0001:00002A90       _inc
+ 0001:00002A98       _dec_test
+ 0001:00002A98       _dec_test
+ 0001:00002AA8       _setupenv
+ 0001:00002AA8       _setupenv
+ 0001:00002B78       _w_raise
+ 0001:00002B78       _w_raise
+ 0001:00002B80       _set_crt_msg_handle
+ 0001:00002B80       _set_crt_msg_handle
+ 0001:00002BB4       _ucalloc
+ 0001:00002BB4       _ucalloc
+ 0001:00002C98       _ucreate
+ 0001:00002C98       _ucreate
+ 0001:00002E04       _uaddmem
+ 0001:00002E04       _uaddmem
+ 0001:000037E4       _rnode_delete
+ 0001:000037E4       _rnode_delete
+ 0001:00003854       _ufree
+ 0001:00003854       _ufree
+ 0001:00004170       _umalloc
+ 0001:00004170       _umalloc
+ 0001:0000443C       _urealloc
+ 0001:0000443C       _urealloc
+ 0001:00004660       _w_walking
+ 0001:00004660       _w_walking
+ 0001:00004664       _Flush
+ 0001:00004664       _Flush
+ 0001:000047EC       _w_uheap_verify
+ 0001:000047EC       _w_uheap_verify
+ 0001:000047F0       _w_int_unlink_item
+ 0001:000047F0       _w_int_unlink_item
+ 0001:000047F4       _flushb
+ 0001:000047F4       _flushb
+ 0001:00004B08       sig32
+ 0001:00004B08       sig32
+ 0001:00004B08 000000000H EH_CODE                CODE 32-bit
+ 0001:00004B08 000000030H _MSGSEG32              CODE 32-bit
+ 0001:00004B1A       DOS32GETMESSAGE
+ 0001:00004B1A       DOS32GETMESSAGE
+ 0001:00004B1A       DOSGETMESSAGE
+ 0001:00004B1A       DOSGETMESSAGE
+ 0001:00004B1A       Dos32GetMessage
+ 0001:00004B1A       Dos32GetMessage
+ 0001:00004B1A       DosGetMessage
+ 0001:00004B1A       DosGetMessage
+ 0002:00000000 000000738H CONST32_RO             CONST 32-bit
+ 0002:000000E0       _pospow1
+ 0002:000000E0       _pospow1
+ 0002:00000360       _pospow2
+ 0002:00000360       _pospow2
+ 0003:0   DGROUP
+ 0003:00000000       _fltused
+ 0003:00000000       _fltused
+ 0003:00000000 000000000H EH_DATA                DATA 32-bit
+ 0003:00000000 000000000H _VFT                   DATA 32-bit
+ 0003:00000000 000000360H DATA32                 DATA 32-bit
+ 0003:00000004       _exeentry
+ 0003:00000004       _exeentry
+ 0003:0000001C       _C_numeric
+ 0003:0000001C       _C_numeric
+ 0003:0000003C       __lc_numeric
+ 0003:0000003C       __lc_numeric
+ 0003:000001F4       stdin
+ 0003:000001F4       stdin
+ 0003:000001F8       stdout
+ 0003:000001F8       stdout
+ 0003:000001FC       stderr
+ 0003:000001FC       stderr
+ 0003:00000280       _PGLOBAL_PTR
+ 0003:00000280       _PGLOBAL_PTR
+ 0003:00000284       _daylight
+ 0003:00000284       _daylight
+ 0003:00000288       _timezone
+ 0003:00000288       _timezone
+ 0003:0000028C       _osmode
+ 0003:0000028C       _osmode
+ 0003:00000290       _version
+ 0003:00000290       _version
+ 0003:00000294       _swprintf_size
+ 0003:00000294       _swprintf_size
+ 0003:00000298       _random_seed
+ 0003:00000298       _random_seed
+ 0003:0000029C       _matherr_ptr
+ 0003:0000029C       _matherr_ptr
+ 0003:0000034C       _crt_msg_handle
+ 0003:0000034C       _crt_msg_handle
+ 0003:00000360       _firsteib
+ 0003:00000360       _firsteib
+ 0003:00000360 000000000H CTOR_DTOR1             DATA 32-bit
+ 0003:00000360 000000000H CTOR_DTOR2             DATA 32-bit
+ 0003:00000360 000000000H CTOR_DTOR3             DATA 32-bit
+ 0003:00000360 00000000CH EDC1                   EDC_CLASS 32-bit
+ 0003:0000036C 0000001ECH EDC2                   EDC_CLASS 32-bit
+ 0003:00000558       _lasteib
+ 0003:00000558       _lasteib
+ 0003:00000558 000000004H EDC3                   EDC_CLASS 32-bit
+ 0003:0000055C       _edata
+ 0003:0000055C       _edata
+ 0003:0000055C 000000074H BSS32                  BSS 32-bit
+ 0003:00000584       _argc
+ 0003:00000584       _argc
+ 0003:00000588       _argv
+ 0003:00000588       _argv
+ 0003:0000058C       _edcinit_fin
+ 0003:0000058C       _edcinit_fin
+ 0003:00000590       _swprintf_buf
+ 0003:00000590       _swprintf_buf
+ 0003:00000594       _locale_initialized
+ 0003:00000594       _locale_initialized
+ 0003:00000598       _CRT_usage_count
+ 0003:00000598       _CRT_usage_count
+ 0003:000005AC       _Saved_Return_Address
+ 0003:000005AC       _Saved_Return_Address
+ 0003:000005B0       _Async_exception_flag
+ 0003:000005B0       _Async_exception_flag
+ 0003:000005C8       _tiled_heap
+ 0003:000005C8       _tiled_heap
+ 0003:000005D0       _strtok_pos
+ 0003:000005D0       _strtok_pos
+ 0003:000005D0 000000054H c_common               BSS 32-bit
+ 0003:000005D4       _default_heap
+ 0003:000005D4       _default_heap
+ 0003:000005D8       _tempname_ptr
+ 0003:000005D8       _tempname_ptr
+ 0003:000005DC       _cvt_buf_ptr
+ 0003:000005DC       _cvt_buf_ptr
+ 0003:000005E0       _lcvt_buf_ptr
+ 0003:000005E0       _lcvt_buf_ptr
+ 0003:000005E4       errno
+ 0003:000005E4       errno
+ 0003:000005E8       _flags
+ 0003:000005E8       _flags
+ 0003:000005EC       _perror_msg_ptr
+ 0003:000005EC       _perror_msg_ptr
+ 0003:000005F0       _broken_time_ptr
+ 0003:000005F0       _broken_time_ptr
+ 0003:000005F4       _internal_buf_ptr
+ 0003:000005F4       _internal_buf_ptr
+ 0003:000005F8       _strerror_msg_ptr
+ 0003:000005F8       _strerror_msg_ptr
+ 0003:000005FC       _tzname
+ 0003:000005FC       _tzname
+ 0003:00000604       _environ
+ 0003:00000604       _environ
+ 0003:00000608       _osmajor
+ 0003:00000608       _osmajor
+ 0003:00000609       _osminor
+ 0003:00000609       _osminor
+ 0003:0000060C       _reg_heap
+ 0003:0000060C       _reg_heap
+ 0003:00000610       _conv_buf
+ 0003:00000610       _conv_buf
+ 0003:00000614       _doserrno
+ 0003:00000614       _doserrno
+ 0003:00000618       _dttm_ptr
+ 0003:00000618       _dttm_ptr
+ 0003:0000061C       _TerminateAndDumpSem
+ 0003:0000061C       _TerminateAndDumpSem
+ 0003:00000620       _walk_used
+ 0003:00000620       _walk_used
+ 0003:00000630       _end
+ 0003:00000630       _end
+ 0003:00000630 000008000H STACK32                STACK 32-bit
